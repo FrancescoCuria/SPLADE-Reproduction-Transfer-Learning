@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity
+naver/splade_v2_distil,trec-covid,0.70415,0.88333,0.752,0.12663,0.42942,13.214737585506501,332.42855391870756

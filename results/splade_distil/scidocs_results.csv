@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity
+naver/splade_v2_distil,scidocs,0.15511,0.27646,0.08,0.36487,0.59375,15.656156604435436,403.16443855478036

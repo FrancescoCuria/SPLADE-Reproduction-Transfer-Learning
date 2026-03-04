@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity,nDCG@10_Hybrid,MRR@10_Hybrid
+naver/splade-cocondenser-ensembledistil,webis-touche2020,0.27261,0.45363,0.26327,0.48736,0.82244,7.320573249885768,184.0320642015972,0.34544,0.60909

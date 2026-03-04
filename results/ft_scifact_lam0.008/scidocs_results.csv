@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity,nDCG@10_Hybrid,MRR@10_Hybrid
+models/2_splade_ft_scifact_lam0.008,scidocs,0.16066,0.28614,0.0824,0.38227,0.6089,10.473107105273415,153.86526094243285,0.16746,0.29159

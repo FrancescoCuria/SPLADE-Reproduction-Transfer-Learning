@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity,nDCG@10_Hybrid,MRR@10_Hybrid
+naver/splade-cocondenser-selfdistil,scifact,0.7152,0.68393,0.09467,0.93867,0.99267,16.51136857675735,259.0673355199691,0.72172,0.6886

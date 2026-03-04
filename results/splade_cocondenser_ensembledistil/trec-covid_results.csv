@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity,nDCG@10_Hybrid,MRR@10_Hybrid
+naver/splade-cocondenser-ensembledistil,trec-covid,0.72536,0.90667,0.79,0.1305,0.46076,11.757812667802863,177.41427754301588,0.7441,0.91733

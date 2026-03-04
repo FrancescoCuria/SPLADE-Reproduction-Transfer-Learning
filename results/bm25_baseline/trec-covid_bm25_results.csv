@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k
+BM25,trec-covid,0.61418,0.88194,0.656,0.11303,0.43275

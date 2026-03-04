@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity
+naver/splade_v2_max,scifact,0.64054,0.6158,0.08467,0.902,0.98333,10.719311852852274,208.54042060582674

@@ -1,0 +1,2 @@
+Model,Dataset,nDCG@10,MRR@10,P@10,R@100,R@1k,Avg_FLOPS,Avg_Doc_Sparsity,nDCG@10_Hybrid,MRR@10_Hybrid
+naver/splade-cocondenser-ensembledistil,arguana,0.50761,0.4192,0.07987,0.9808,0.99644,24.697382114466443,213.95284759050034,0.53294,0.44307
