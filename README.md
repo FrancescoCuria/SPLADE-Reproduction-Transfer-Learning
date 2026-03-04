@@ -1,7 +1,8 @@
 # From Distillation to Hard Negative Sampling: Reproduction & Experiments on SPLADE++
 
 ## Overview
-This repository contains a reproduction study on additive techniques for SPLADE models and an original experiment on transfer learning. The project was based on the work by Formal et al. (SIGIR '22).
+This repository contains a reproduction study on additive techniques for SPLADE models and an original experiment on transfer learning. The project was based on the work by Formal et al. (SIGIR '22).  
+**[Read the full Project Report (PDF)](ProjectPresentation.pdf)**
 
 ## Research Objectives
 The project aims to answer several research questions:
