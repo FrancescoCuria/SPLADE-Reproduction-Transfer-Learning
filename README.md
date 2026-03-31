@@ -29,7 +29,7 @@ An experiment was conducted to adapt the model from the SciFact domain (scientif
 * A slight "negative transfer" occurred on the source dataset (SciFact) and out-of-domain benchmarks (FIQA), indicating that the strong pre-training resisted adaptation and the model overfitted to the specifics of the source data.
 * In low-resource scenarios, the zero-shot configuration proved to be superior and more reliable than few-shot fine-tuning strategies.
 
-Tech Stack
+## Tech Stack
 * Deep Learning: PyTorch, Hugging Face Transformers
 * Information Retrieval: SPLADE, BM25, BEIR Benchmark
 * Optimization & Metrics: Knowledge Distillation, Hard Negative Mining, NDCG, FLOPS
