@@ -19,7 +19,9 @@ The evaluation framework is based on 7 datasets extracted from the BEIR benchmar
 ## Main Results
 
 ### 1. Reproduction and SOTA
-Inference results show high fidelity to the official figures reported in the original paper by Formal et al. It is confirmed that SPLADE++ models consistently outperform previous iterations and dense baselines (such as TAS-B and Contriever) in zero-shot scenarios. Hybrid models (SPLADE + BM25) consistently improve overall performance, especially in "debate-oriented" tasks like Touché-2020.
+* Baseline Matching: Successfully validated the SPLADE++ training pipeline, matching official State-Of-The-Art (SOTA) figures (e.g., reaching an NDCG@10 of 72.5 on TREC-COVID).
+* Zero-Shot Superiority: Confirmed that sparse neural retrievers outscale dense baselines in zero-shot settings, providing a better trade-off between retrieval efficiency and lexical interpretability.
+* Hybrid Retrieval: Demonstrated that combining sparse and lexical representations (SPLADE++ + BM25) consistently maximizes overall performance, proving highly effective in complex, "debate-oriented" tasks like Touché-2020.
 
 ### 2. Fine-Tuning Experiment (Transfer Learning)
 An experiment was conducted to adapt the model from the SciFact domain (scientific fact-checking) to the SCIDOCS domain (citation recommendation). The results revealed the "Stability-Plasticity" dilemma:
@@ -27,6 +29,7 @@ An experiment was conducted to adapt the model from the SciFact domain (scientif
 * A slight "negative transfer" occurred on the source dataset (SciFact) and out-of-domain benchmarks (FIQA), indicating that the strong pre-training resisted adaptation and the model overfitted to the specifics of the source data.
 * In low-resource scenarios, the zero-shot configuration proved to be superior and more reliable than few-shot fine-tuning strategies.
 
-## References
-* Formal et al. (2022): *From Distillation to Hard Negative Sampling: Making Sparse Neural IR Models More Effective*. (SIGIR '22).
-* Thakur et al. (2021): *BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models*. (NeurIPS '21).
+Tech Stack
+* Deep Learning: PyTorch, Hugging Face Transformers
+* Information Retrieval: SPLADE, BM25, BEIR Benchmark
+* Optimization & Metrics: Knowledge Distillation, Hard Negative Mining, NDCG, FLOPS
