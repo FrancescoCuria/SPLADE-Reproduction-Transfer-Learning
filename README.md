@@ -19,7 +19,7 @@ The evaluation framework is based on 7 datasets extracted from the BEIR benchmar
 ## Main Results
 
 ### 1. Reproduction and SOTA
-* Baseline Matching: Successfully validated the SPLADE++ training pipeline, matching official State-Of-The-Art (SOTA) figures (e.g., reaching an NDCG@10 of 72.5 on TREC-COVID).
+* Baseline Matching: Successfully validated the SPLADE++ training pipeline, matching official State of the Art figures (e.g., reaching an NDCG@10 of 72.5 on TREC-COVID).
 * Zero-Shot Superiority: Confirmed that sparse neural retrievers outscale dense baselines in zero-shot settings, providing a better trade-off between retrieval efficiency and lexical interpretability.
 * Hybrid Retrieval: Demonstrated that combining sparse and lexical representations (SPLADE++ + BM25) consistently maximizes overall performance, proving highly effective in complex, "debate-oriented" tasks like Touché-2020.
 
