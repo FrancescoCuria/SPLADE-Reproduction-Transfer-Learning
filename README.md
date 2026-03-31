@@ -31,5 +31,4 @@ An experiment was conducted to adapt the model from the SciFact domain (scientif
 
 ## Tech Stack
 * Deep Learning: PyTorch, Hugging Face Transformers
-* Information Retrieval: SPLADE, BM25, BEIR Benchmark
-* Optimization & Metrics: Knowledge Distillation, Hard Negative Mining, NDCG, FLOPS
+* Information Retrieval: SPLADE Models, BM25, BEIR Benchmark
